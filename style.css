@@ -30,12 +30,15 @@ header{
     font-size: 9.41177px;
     line-height: 13px;
     color: #FF52C1;
-    
+    cursor: pointer;
 
 }
+.tryitfree:hover{
+    color: #FF8ED7;
+}
 #logo{
-    width: 25.6%;
-    height: auto;
+    width: 96px;
+    height:16px;
 }
 .first{
     padding: 0 40px;
@@ -120,6 +123,9 @@ header{
 #top-mobile, #bot-mobile{
     width: 100%;
 
+}
+#top-desk, #bottom-desk{
+    display: none;
 }
 #grow{
     width: 68.96%;
@@ -328,5 +334,76 @@ footer{
     }
     .msgs{
         margin-top: 0;
+    }
+    #top-mobile, #bot-mobile{
+    display: none;
+    
+    }
+    #top-desk, #bottom-desk{
+        display: block;
+        width: 100%;
+    }
+    .illustrations{
+        margin-top: 133px;
+    }
+    #grow{
+        width: 35.9%;
+        height: auto;
+        order: 2;
+    }
+    .color{
+        display: flex;
+        flex-direction: row;
+    }
+    .grow-left{
+        order: 1;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        padding-left: 130px;
+        padding-right: 100px;
+        
+    }
+    .grow-left h2{
+        font-size: 40px;
+        line-height: 60px;
+        
+    }
+    .grow-left p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        padding: 0;
+    
+    }
+    #flow{
+        width: 36.85%;
+    }
+    .flowing{
+        display: flex;
+        padding-left: 135px;
+    }
+    #grow{
+        padding-right: 235px;
+    }
+    .community h2{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    #logo{
+        width: 240px;
+        height:38px;
+    }
+    header{
+        padding: 0 80px;
+    }
+    .tryitfree{
+        width: 136px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 20px;
     }
 }
