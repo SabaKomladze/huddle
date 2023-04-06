@@ -209,7 +209,13 @@ header{
     line-height: 24px;
     color: #FF4343;
 }
-
+.please{
+    display: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FF4343;
+}
 #footer{
     width: 100%;
     position: absolute;
